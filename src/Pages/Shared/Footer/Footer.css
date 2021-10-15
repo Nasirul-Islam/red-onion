@@ -1,0 +1,13 @@
+.footer{
+    background: black;
+    padding: 50px 0;
+    color: rgb(228, 224, 224);
+}
+
+.footer p, span{
+    font-size: 14px;
+}
+
+.copyright{
+    color: rgb(139, 138, 138);
+}

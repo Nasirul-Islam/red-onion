@@ -1,0 +1,20 @@
+.signup{
+    text-align: center;
+    background: url(../../images/bannerbackground.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    height: 100vh;
+}
+
+.signup img {
+    margin-bottom: 30px;
+}
+
+.signup a {
+    text-decoration: none;
+    color: red;
+    display: inline-block;
+    margin-top: 20px;
+}
