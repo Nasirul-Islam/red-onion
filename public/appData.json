@@ -1,0 +1,160 @@
+{
+    "breakfast": [
+        {
+            "id": 13,
+            "name": "Healthy Meal",
+            "description": "How we dream about your future",
+            "price": 80,
+            "img": "https://i.ibb.co/gSMyN8P/breakfast1.png"
+        },
+        {
+            "id": 23,
+            "name": "Healthy Meal",
+            "description": "How we dream about your future",
+            "price": 70,
+            "img": "https://i.ibb.co/BjX1HXj/breakfast2.png"
+        },
+        {
+            "id": 33,
+            "name": "Healthy Meal",
+            "description": "How we dream about your future",
+            "price": 90,
+            "img": "https://i.ibb.co/nPxwKbp/breakfast3.png"
+        },
+        {
+            "id": 43,
+            "name": "Healthy Meal",
+            "description": "How we dream about your future",
+            "price": 70,
+            "img": "https://i.ibb.co/XskCxpK/breakfast4.png"
+        },
+        {
+            "id": 53,
+            "name": "Healthy Meal",
+            "description": "How we dream about your future",
+            "price": 80,
+            "img": "https://i.ibb.co/P96hFyx/breakfast5.png"
+        },
+        {
+            "id": 63,
+            "name": "Healthy Meal",
+            "description": "How we dream about your future",
+            "price": 90,
+            "img": "https://i.ibb.co/HpvrhQS/breakfast6.png"
+        }
+    ],
+    "lunch": [
+        {
+            "id": 11,
+            "name": "Healthy Meal",
+            "description": "How we dream about your future",
+            "price": 80,
+            "img": "https://i.ibb.co/g6TZSfB/lunch1.png"
+        },
+        {
+            "id": 21,
+            "name": "Healthy Meal",
+            "description": "How we dream about your future",
+            "price": 70,
+            "img": "https://i.ibb.co/SKJjS39/lunch2.png"
+        },
+        {
+            "id": 31,
+            "name": "Healthy Meal",
+            "description": "How we dream about your future",
+            "price": 90,
+            "img": "https://i.ibb.co/KmMnGSQ/lunch3.png"
+        },
+        {
+            "id": 41,
+            "name": "Healthy Meal",
+            "description": "How we dream about your future",
+            "price": 70,
+            "img": "https://i.ibb.co/9WFwPLW/lunch4.png"
+        },
+        {
+            "id": 51,
+            "name": "Healthy Meal",
+            "description": "How we dream about your future",
+            "price": 80,
+            "img": "https://i.ibb.co/pJ8smLN/lunch5.png"
+        },
+        {
+            "id": 61,
+            "name": "Healthy Meal",
+            "description": "How we dream about your future",
+            "price": 90,
+            "img": "https://i.ibb.co/JsXX7b7/lunch6.png"
+        }
+    ],
+    "dinner": [
+        {
+            "id": 12,
+            "name": "Healthy Meal",
+            "description": "How we dream about your future",
+            "price": 80,
+            "img": "https://i.ibb.co/Qnr7p7N/dinner1.png"
+        },
+        {
+            "id": 22,
+            "name": "Healthy Meal",
+            "description": "How we dream about your future",
+            "price": 70,
+            "img": "https://i.ibb.co/N2Q8M1h/dinner2.png"
+        },
+        {
+            "id": 32,
+            "name": "Healthy Meal",
+            "description": "How we dream about your future",
+            "price": 90,
+            "img": "https://i.ibb.co/ncqKKdq/dinner3.png"
+        },
+        {
+            "id": 42,
+            "name": "Healthy Meal",
+            "description": "How we dream about your future",
+            "price": 70,
+            "img": "https://i.ibb.co/ZN3b76L/dinner4.png"
+        },
+        {
+            "id": 52,
+            "name": "Healthy Meal",
+            "description": "How we dream about your future",
+            "price": 80,
+            "img": "https://i.ibb.co/19jc1YB/dinner5.png"
+        },
+        {
+            "id": 62,
+            "name": "Healthy Meal",
+            "description": "How we dream about your future",
+            "price": 90,
+            "img": "https://i.ibb.co/VCrnVJT/dinner6.png"
+        }
+    ],
+    "services": [
+        {
+            "id": 122,
+            "title": "Healthy Meal",
+            "description": "How we dream about your future",
+            "price": 80,
+            "icon": "https://i.ibb.co/b2SVz06/Group-1133.png",
+            "img": "https://i.ibb.co/mXJDBsR/chef-1.png"
+        },
+        {
+            "id": 122,
+            "title": "Healthy Meal",
+            "description": "How we dream about your future",
+            "price": 70,
+            "icon": "https://i.ibb.co/xCm8Vhn/Group-245.png",
+            "img": "https://i.ibb.co/p0c5whh/chef-2.png"
+        },
+        {
+            "id": 132,
+            "title": "Healthy Meal",
+            "description": "How we dream about your future",
+            "price": 90,
+            "icon": "https://i.ibb.co/b2SVz06/Group-1133.png",
+            "img": "https://i.ibb.co/3cVcSPK/chef-3.png"
+        }
+    ]
+}

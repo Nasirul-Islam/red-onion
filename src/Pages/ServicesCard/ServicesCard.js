@@ -1,14 +1,30 @@
 import React from 'react';
-import { Col, Row } from 'react-bootstrap';
+import { Card, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import './ServicesCard.css'
+import { FaArrowRight } from "react-icons/fa";
 
-const ServicesCard = () => {
+const ServicesCard = (prpos) => {
+    const { title, img, icon, description } = prpos.data
     return (
         <>
-            <Row>
-                <Col md={4}><h3>Dynamic Card</h3></Col>
-                <Col md={4}><h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, consectetur.</h3></Col>
-                <Col md={4}><h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, consectetur.</h3></Col>
-            </Row>
+            <Col>
+                <Card className="service-card mb-5">
+                    <Card.Img className="chef" variant="top" src={img} />
+                    <Card.Body className="d-flex text-start">
+                        <div className="me-3">
+                            <img src={icon} alt="" />
+                        </div>
+                        <div className="">
+                            <Card.Title>{title}</Card.Title>
+                            <Card.Text>
+                                {description}
+                            </Card.Text>
+                            <Link>See more <span><FaArrowRight /></span></Link>
+                        </div>
+                    </Card.Body>
+                </Card>
+            </Col>
         </>
     );
 };

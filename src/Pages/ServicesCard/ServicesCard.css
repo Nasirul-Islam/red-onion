@@ -1,0 +1,13 @@
+.service-card a {
+    text-decoration: none;
+}
+.service-card .chef {
+    height: 350px;
+}
+
+.service-card span {
+    background-color: rgb(104, 207, 0);
+    padding: 3px;
+    border-radius: 100%;
+    color: rgb(255, 255, 255);
+}

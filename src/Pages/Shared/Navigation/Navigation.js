@@ -12,6 +12,8 @@ const Navigation = () => {
                 <Container>
                     <Navbar.Brand href="#home"><img src={logo} width="150px" alt="" /></Navbar.Brand>
                     <Nav className="ms-auto navigation">
+
+                        <Nav.Link href="#home"><Link to="/home">Home</Link></Nav.Link>
                         <Nav.Link href="#home"><FaShoppingCart /></Nav.Link>
 
                         <Nav.Link href="#home"><Link to="/login">Login</Link></Nav.Link>

@@ -1,18 +1,16 @@
 import React from 'react';
-import Footer from '../../Shared/Footer/Footer';
-import Navigation from '../../Shared/Navigation/Navigation';
+import Breakfast from '../../Meals/Breakfast/Breakfast';
 import Banner from '../Banner/Banner';
-import Meal from '../Meal/Meal';
+// import Meal from '../Meal/Meal';
 import Services from '../Services/Services';
 
 const Home = () => {
     return (
         <div>
-            <Navigation></Navigation>
             <Banner></Banner>
-            <Meal></Meal>
+            {/* <Meal></Meal> */}
+            <Breakfast></Breakfast>
             <Services></Services>
-            <Footer></Footer>
         </div>
     );
 };
