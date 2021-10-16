@@ -3,8 +3,10 @@ import logo from '../../images/logo2.png';
 import { Button, Container, Form } from 'react-bootstrap';
 import './Signup.css';
 import { Link } from 'react-router-dom';
+import useFirebase from '../../hooks/useFirebase';
 
-const Login = () => {
+const Signup = () => {
+    const { user, Googlesignin, logOut, handleEmail, handlePassword, createNewAccount, Facebooksignin } = useFirebase();
     return (
         <div className="signup">
             <Container className=" w-25">
@@ -14,13 +16,40 @@ const Login = () => {
                 <Form>
                     <Form.Control type="text" placeholder="Name" />
                     <br />
-                    <Form.Control type="text" placeholder="Email" />
+                    <Form.Control onBlur={handleEmail} type="text" placeholder="Email" />
                     <br />
-                    <Form.Control type="text" placeholder="Password" />
+                    <Form.Control onBlur={handlePassword} type="password" placeholder="Password" />
                     <br />
-                    <Form.Control type="text" placeholder="Confirm Password" />
+                    <Form.Control onBlur={handlePassword} type="password" placeholder="Confirm Password" />
                     <br />
-                    <Button variant="danger" className="w-100">Sign Up</Button>
+                    {
+                        user.email ?
+                            <Button
+                                onClick={logOut}
+                                variant="danger" className="w-100">
+                                Sign Out
+                            </Button>
+                            :
+                            <Button
+                                onClick={createNewAccount}
+                                variant="danger" className="w-100">
+                                Sign Up
+                            </Button>
+                    }
+                    <br />
+                    <br />
+                    <Button
+                        onClick={Googlesignin}
+                        variant="danger" className="w-100">
+                        Login With Google
+                    </Button>
+                    <br />
+                    <br />
+                    <Button
+                        onClick={Facebooksignin}
+                        variant="danger" className="w-100">
+                        Login With Facebook
+                    </Button>
                 </Form>
                 <Link to="/login">Already have an account</Link>
             </Container>
@@ -28,4 +57,4 @@ const Login = () => {
     );
 };
 
-export default Login;
+export default Signup;
